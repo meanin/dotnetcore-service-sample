@@ -4,6 +4,7 @@
     <LangVersion>latest</LangVersion>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <DockerTargetOS>Linux</DockerTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
