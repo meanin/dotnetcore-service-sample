@@ -8,10 +8,10 @@ More details @ https://dejanstojanovic.net/aspnet/2018/june/clean-service-stop-o
 
 
 1. build docker image in a solution folder:
-	docker build -f Core.Service.Sample\Dockerfile -t "coreservicesample:latest" .
+```	docker build -f Core.Service.Sample\Dockerfile -t "coreservicesample:latest" .```
 	
 2. tested with sigterm:
-	docker stop <containerid>
+```	docker stop <containerid>```
 	
 3. tested with sigkill:
-	docker kill <containerid>
+```	docker kill <containerid>```
